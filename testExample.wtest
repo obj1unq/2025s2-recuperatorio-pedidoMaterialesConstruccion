@@ -1,0 +1,92 @@
+import example.*
+
+describe "test de armando paredes" {
+
+  test "dummy" {assert.that(true)}
+  //Materiales:
+  //const arena = un material con stock de 10. Para el punto 3 su precio base es 100 y 3 como costo de traslado
+  //const martillo =  una herramienta con stock de 5. Para el punto 3 su precio base es 50
+  //const soldadora =  una herramienta electronica con stock de 2. Para el punto 3 su precio base es 1000
+
+
+  //const pedidoEntregable =  Un pedido de distancia 35 con 2 de arena, 3 martillos y una soldadora  
+  //const pedidoSinStock =  Un pedido de distancia 35 con 2 de arena, 7 martillos y una soldadora
+  //const pedidoLejano = Un pedido de 70 de distancia con 2 e arena, 3 de martillo y una soldadora
+
+  //const pedidoPequenio = //Un pedido de distancia 35 con 1 de arena, 3 de martillo y 1 soldadora
+  
+  //const otroPedidoEntregable = //Un pedido de 35 de distancia con 5 de arena y 1 soldadora
+
+  // test "puede entregar" {
+  //   //Comprobar que pedidoEntregable se puede entregar
+  //   // Comprobar que otroPedidoEntregable se puede entregar 
+    
+  //   // Comprobar que pedidoSinStock no se puede Entregar,
+  //   // Comprobar que pedidoLejano no se puede Entregar,    
+  //   // Comprobar que otroPedidoEntregable no se puede Entregar,
+  // }
+
+  //test "entregar" {
+    //Se intenta entregar el pedidoSinStock, pero no se puede!
+    //Se intenta entregar el pedidoLejano, pero no se puede!
+    //Se intenta entregar el pedidoPequenio, pero no se puede!
+
+    //comprobar que lo stocks no se modificaron, es decir:
+    //   el stock de arena es 10
+    //   el stock de martillo es 5
+    //   el stock de la soldadora es 2
+
+    //Entregar el pedidoEntregable
+    // comprobar los stocks:
+    //   el stock de arena es 8
+    //   el stock de martillo es 2
+    //   el stock de la soldadora es 1
+    // comprobar que los pedidos entregados del corralon armando paredes es una coleccion con un solo elemento: pedidoEntregable
+
+    //Entregar otroPedidoEntregable
+    // comprobar los stocks:
+    //   el stock de arena es 3
+    //   el stock de martillo es 2
+    //   el stock de la soldadora es 0
+    // comprobar que los pedidos entregados del corralon armando paredes es una coleccion pedidoEntregable y otroPedidoEntregable
+  
+  //}
+
+  // test "precio" {
+  //   //comprobar que el precio de pedidoEntregable es 2060
+  //   // si no te dan las cuentas:
+  //       // 2 de arena a 35 km => (2 *( 100 + 35 * 3) = 410
+  //       // 3 martillos a 35 km => (3 * 50 ) = 150
+  //       // 1 soldadora a 35 km => (1 * (1000 + 500)) = 1500
+  //       // 410 + 150 + 1500 == 2060
+
+  //   //comprobar que el precio de pedidoSinStock es 2260
+  //   // si no te dan las cuentas:
+  //       // 2 de arena a 35 km => (2 *( 100 + 35 * 3) = 410
+  //       // 7 martillos a 35 km => (7 * 50 ) = 350
+  //       // 1 soldadora a 35 km => (1 * (1000 + 500)) = 1500
+  //       // 410 + 350 + 1500 == 2260
+
+  //   //comprobar que el precio de pedidoLejano es 2270
+  //   // si no te dan las cuentas:
+  //       // 2 de arena a 70 km => (2 *( 100 + 70 * 3) = 620
+  //       // 3 martillos a 70 km => (3 * 50 ) = 150
+  //       // 1 soldadora a 70 km => (1 * (1000 + 500)) = 1500
+  //       // 620 + 150 + 1500 == 2260
+
+  //   //comprobar que el precio de pedidoPequenio es 1855
+  //   // si no te dan las cuentas:
+  //       // 2 de arena a 35 km => (1 *( 100 + 35 * 3) = 205
+  //       // 3 martillos a 35 km => (3 * 50 ) = 150
+  //       // 1 soldadora a 35 km => (1 * (1000 + 500)) = 1500
+  //       // 205 + 150 + 1500 == 1855
+
+  //   //comprobar que el precio de otroPedidoEntregable es 2525
+  //   // si no te dan las cuentas:
+  //       // 5 de arena a 35 km => (5 *( 100 + 35 * 3) = 1025
+  //       // 1 soldadora a 35 km => (1 * (1000 + 500)) = 1500
+  //       // 1025  + 1500 == 2525
+
+  // }
+
+} 
